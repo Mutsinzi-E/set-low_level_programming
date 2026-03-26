@@ -8,9 +8,9 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i += 2)
+	for (i = 0; str[i] != '\0'; i += 2) /* loop through string */
 	{
-		_putchar(str[i]);
+		_putchar(str[i]); /* print every other char */
 	}
-	_putchar('\n');
+	_putchar('\n'); /* always end with newline */
 }
