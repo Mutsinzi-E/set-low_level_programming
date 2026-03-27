@@ -1,24 +1,13 @@
 # Ignore compiled binaries
 *.o
-*~
 0-memset
-0-memcpy
-0-strcat
-0-strncat
-0-strncpy
-0-strcmp
-0-strncmp
-0-strlen
 *.out
 a.out
 
-# Ignore Betty folder if accidentally cloned
+# Ignore Betty folder
 Betty/
 
-# Ignore temporary editor files
+# Temporary files
+*~
 *.swp
-*.swo
 *.bak
-
-# Ignore other unwanted files
-.DS_Store
