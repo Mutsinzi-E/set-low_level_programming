@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-unsigned int _strspn(char *s, char *accept);
+int _putchar(char c);
+void _puts(char *str);
 
-#endif /* MAIN_H */
+#endif
